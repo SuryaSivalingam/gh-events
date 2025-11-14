@@ -23,5 +23,3 @@ dist-ssr
 *.sln
 *.sw?
 .github/workflows/.DS_Store
-.github/..
-.github/workflows/..

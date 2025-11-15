@@ -6,6 +6,13 @@ on:
       - closed
       - reopened
   workflow_dispatch:
+  push:
+    branches:
+      - main
+      - dev*
+      - feat-*
+    paths:
+      - !'./github/workflows/*'
 jobs:
   deploy:
     runs-on: ubuntu-latest
